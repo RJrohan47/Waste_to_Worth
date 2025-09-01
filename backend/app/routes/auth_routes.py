@@ -78,6 +78,7 @@ def refresh():
     return jsonify({
         "access_token":new_access_token
     }),200
+
 # protected profile route 
 
 @auth_bp.route('/profile',methods=["GET"])
